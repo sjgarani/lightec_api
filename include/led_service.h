@@ -10,8 +10,8 @@ typedef struct led_service led_service_t;
 
 struct led_service {
     void *handle;
-    void (*setState)(void *handle, bool state);
-    bool (*getState)(void *handle);
+    int (*setState)(void *handle, bool state);
+    int (*getState)(void *handle, bool *state);
 };
 
 #endif /* LASER_SERVICE_H_ */
