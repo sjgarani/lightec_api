@@ -2,7 +2,7 @@
 @version("1.0.0")
 protocol LedService {
     @index(0)
-    void setState(boolean state);
+    void setState(int state);
     @index(1)
-    boolean getState();
+    int getState();
 }
