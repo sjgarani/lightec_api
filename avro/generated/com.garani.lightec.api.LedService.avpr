@@ -10,11 +10,6 @@
         "name" : "state",
         "type" : "int"
       } ],
-      "response" : "null"
-    },
-    "getState" : {
-      "index" : 1,
-      "request" : [ ],
       "response" : "int"
     }
   }
